@@ -1,0 +1,31 @@
+# pyproject.toml
+
+[project]
+name = "cc-engine"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Pireddas",email = "ralfpiredda@gmail.com"}
+]
+readme = "README.md"
+requires-python = "^3.10"
+dependencies = [
+    "uvicorn (>=0.40.0,<0.41.0)",
+    "fastapi (>=0.128.0,<0.129.0)",
+    "yfinance (>=1.0,<2.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "pydantic-settings (>=2.12.0,<3.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "sqlalchemy (>=2.0.45,<3.0.0)",
+    "cachetools (>=6.2.4,<7.0.0)",
+    "pyarrow (>=23.0.0,<24.0.0)",
+    "openai (>=2.17.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false

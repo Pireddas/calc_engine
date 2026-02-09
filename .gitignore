@@ -13,6 +13,7 @@ venv/
 src/data/
 src/data/*.db
 src/data/*.db-journal
+app/infrastructure/db/sqlite/governance.db
 
 # --- Logs e Auditoria ---
 logs/
